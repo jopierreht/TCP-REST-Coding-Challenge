@@ -1,15 +1,13 @@
 {
-  "name": "typescript-project",
+  "name": "javascript-project",
   "version": "1.0.0",
-  "description": "Proyecto TypeScript básico",
-  "main": "dist/index.js",
+  "description": "Proyecto JavaScript básico",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "tsc -w"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "devDependencies": {
-    "typescript": "^5.3.3",
-    "@types/node": "^20.11.24"
+    "nodemon": "^3.0.1"
   }
 }
